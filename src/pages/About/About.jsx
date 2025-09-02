@@ -28,8 +28,8 @@ function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            <p>Welcome to Korlake Restaurant in London, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
-            <p>Our restaurant is situated at 5 minutes walk from train station and shopping center. The location is ideal for a perfect breakfast, a facny lunch or a nice dinner with your family or friends. We can't wait to serve you our delicious dishes!</p>
+            <p>Welcome to Fatihah Halal Food in Ibaraki, Japan — where authentic halal flavors and warm hospitality come together. Our restaurant is dedicated to making every meal memorable, turning your everyday dining and special moments into something truly delightful.</p>
+            <p>Located in the heart of Ibaraki, our restaurant is easy to find and welcomes you for any occasion — whether it’s a relaxed lunch, a cozy dinner with family, or a gathering with friends. We can’t wait to serve you our fresh, delicious halal dishes!</p>
             <Link to='/contact'>
               <button type='button' className='btn btn-success btn-lg rounded-0 text-capitalize mt-3 shadow'>Contact us</button>
             </Link>

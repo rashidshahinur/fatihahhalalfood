@@ -23,8 +23,20 @@ function AboutUsSection() {
                 transition={{ duration: 1 }}
             >
                 <h2 className='text-uppercase fw-bold fs-1 mb-4 mb-lg-5'>About us</h2>
-                <p>Welcome to Korlake Restaurant in London, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
-                <p className='mb-4 mb-lg-5'>Our restaurant is situated at 5 minutes walk from train station and shopping center. The location is ideal for a perfect breakfast, a facny lunch or a nice dinner with your family or friends. We can't wait to serve you our delicious dishes!</p>
+                <h2>About Us</h2>
+
+                <p>
+                Welcome to <strong>Fatihah Halal Food</strong> in Ibaraki, Japan — a home for
+                authentic halal flavors and warm hospitality. We prepare each dish with care,
+                using quality ingredients, and serve with the respect our guests deserve.
+                </p>
+
+                <p>
+                You’ll find us at <strong>1549-1 105, Sakai, Sashima District, Ibaraki 306-0433, Japan</strong>.
+                Whether it’s a relaxed lunch or a cozy dinner with family and friends, we can’t
+                wait to serve you our delicious biryani, kebabs, curries, and more — all
+                <strong> 100% Certified Halal</strong>.
+                </p>
                 <Link to='/about'>
                     <button type='button' className='btn btn-dark btn-lg rounded-0 text-capitalize shadow'>More about us</button>
                 </Link>

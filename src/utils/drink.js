@@ -11,7 +11,7 @@ const drink = [
     },
     {
         id: 3,
-        name: 'Spirits',
+        name: 'Coke',
         price: '5.10'
     },
     {

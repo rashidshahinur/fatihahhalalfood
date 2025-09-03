@@ -11,8 +11,13 @@ const food = [
     },
     {
         id:3,
-        name: 'spicy beef',
-        price: '17.00'
+        name: 'Daal Tadka Set',
+        price: '¥900'
+    },
+    {
+        id:4,
+        name: 'Tandoori Chicken(1p) Set',
+        price: '¥1200'
     }
 ];
 

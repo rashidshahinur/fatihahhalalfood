@@ -6,8 +6,8 @@ const food = [
     },
     {
         id:2,
-        name: 'spaghetti carbonara',
-        price: '11.00'
+        name: 'Butter Chicken Set',
+        price: '¥1100'
     },
     {
         id:3,

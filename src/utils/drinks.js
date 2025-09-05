@@ -1,18 +1,45 @@
+
+{/* This is a actually Dinner Menu, which is on the home page */}
 const drinks = [
     {
         id:1,
-        name: 'organic juice',
-        price: '2.00'
+        name: 'Chicken Curry Set',
+        price: '¥950'
     },
     {
         id:2,
-        name: 'coffee',
-        price: '3.00'
+        name: 'Butter Chicken Set',
+        price: '¥1100'
     },
     {
         id:3,
-        name: 'coke',
-        price: '5.00'
+        name: 'Daal Tadka Set',
+        price: '¥900'
+    },
+    {
+        id:4,
+        name: 'Tandoori Chicken(1p) Set',
+        price: '¥1200'
+    },
+    {
+        id:5,
+        name: 'Keema Curry Set',
+        price: '¥1000'
+    },
+    {
+        id:6,
+        name: 'Mutton Curry Set',
+        price: '¥1000'
+    },
+    {
+        id:7,
+        name: 'Vegetable Curry Set',
+        price: '¥850'
+    },
+    {
+        id:8,
+        name: 'Chicken Tikka(2pcs) Set',
+        price: '¥950'
     }
 ];
 

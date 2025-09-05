@@ -16,7 +16,7 @@ function MenuSection() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <h3 className='fs-2 mb-4 fw-semibold text-uppercase'>Mains</h3>
+                    <h3 className='fs-2 mb-4 fw-semibold text-uppercase'>Lunch Menu</h3>
                     <ul className='px-0'>
                         {food.map((food) => (
                             <li key={food.id} className='d-flex justify-content-between'>
@@ -32,7 +32,7 @@ function MenuSection() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <h3 className='fs-2 mb-4 fw-semibold text-uppercase'>Drinks</h3>
+                    <h3 className='fs-2 mb-4 fw-semibold text-uppercase'>Dinner Menu</h3>
                     <ul className='px-0'>
                         {drinks.map((drink) => (
                             <li key={drink.id} className='d-flex justify-content-between'>

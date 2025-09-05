@@ -22,7 +22,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Rashid Shahinur
+        fatihahhalalfood
       </a>
     </p>
   </footer>

@@ -21,7 +21,7 @@ const breakfast = [
         id: 4,
         name: 'Chana Salad',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '____'
+        price: '¥500'
     },
     {
         id: 5,
@@ -33,13 +33,13 @@ const breakfast = [
         id: 6,
         name: 'Cheese Nan',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '____'
+        price: '¥500'
     },
     {
         id: 7,
         name: 'Roti',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '____'
+        price: '¥250'
     },
     {
         id: 8,
@@ -51,25 +51,25 @@ const breakfast = [
         id: 9,
         name: 'Chicken Salad',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '_____'
+        price: '¥500'
     },
     {
         id: 10,
         name: 'Fried Potato',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '_____'
+        price: '¥400'
     },
     {
         id: 11,
         name: 'Butter Nan',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '_____'
+        price: '¥350'
     },
     {
         id: 12,
         name: 'Garlic Nan',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '_____'
+        price: '¥500'
     },
     {
         id: 13,

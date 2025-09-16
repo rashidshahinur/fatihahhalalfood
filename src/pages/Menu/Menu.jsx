@@ -30,7 +30,7 @@ function Menu() {
 
       <div className='breakfast my-5'>
         <div className='container'>
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Breakfast</h2>
+          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Side Menu</h2>
           <div className='row flex-column-reverse flex-lg-row'>
             <motion.div 
               className='col-lg-6 d-flex justify-content-center'

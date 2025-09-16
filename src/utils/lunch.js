@@ -1,21 +1,38 @@
 const lunch = [
     {
         id: 1,
-        name: 'Caesar salad',
-        description: 'chicken breast, romaine lettuce, croutons, parmesan',
-        price: '15.50'
+        name: 'A Set-Curry Choice (Chicken, DAL, Vegetable)',
+        description: 'Nan, Salad, Soft Drink',
+        price: '¥750'
     },
     {
         id: 2,
-        name: 'Spaghetti carbonara',
-        description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-        price: '11.65'
+        name: 'B Set-Curry Choice (Seafood, Sag Mutton, DAL Ghosh)',
+        description: 'Nan, Salad, Soft Drink',
+        price: '¥850'
     },
     {
         id: 3,
-        name: 'Pizza',
-        description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-        price: '12.90'
+        name: 'Cheese Nan Set',
+        description: 'Curry Choice (Butter Chicken, DAL)',
+        price: '¥950'
+    },
+    {
+        id: 4,
+        name: 'Butter Chicken Curry Set',
+        description: 'Nan, Salad, Soft Drink',
+        price: '¥900'
+    },
+    {
+        id: 5,
+        name: 'Keema Curry Set',
+        description: 'Nan, Salad, Soft Drink',
+        price: '¥900'
+    },
+    {
+        id: 5,
+        description: '   All curries are available spiciness choice.',
+        price: 'Mild   --  Medium  --   Hot'
     }
 ];
 

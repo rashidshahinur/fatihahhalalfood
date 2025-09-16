@@ -1,28 +1,33 @@
 const drink = [
     {
         id: 1,
-        name: 'Chicken Curry Set',
-        price: '¥950'
+        name: 'Lassi',
+        price: '¥300'
     },
     {
         id: 2,
-        name: 'Coffee',
-        price: '3.00'
+        name: 'Orange Juice',
+        price: '¥300'
     },
     {
         id: 3,
-        name: 'Coke',
-        price: '5.10'
+        name: 'Chai',
+        price: '¥300'
     },
     {
       id: 4,
-      name: 'Tea',
-      price: '2.20'
+      name: 'Mango Lassi',
+      price: '¥300'
     },
     {
       id: 5,
-      name: 'Water',
-      price: '1.49'
+      name: 'Cola',
+      price: '¥300'
+    },
+    {
+      id: 6,
+      name: 'Apple Juice',
+      price: '¥300'
     }
 ];
 

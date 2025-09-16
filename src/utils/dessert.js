@@ -59,6 +59,60 @@ const dessert = [
         name: 'Beef Curry : ビーフカレー',
         description: 'Tender beef chunks simmered in a hearty onion-tomato gravy with traditional spices',
         price: '¥900'
+    },
+    {
+        id: 11,
+        name: 'Chicken Biryani : チキンビリヤニ',
+        description: 'Fragrant spiced rice cooked with tender chicken, a popular dish',
+        price: '¥900'
+    },
+    {
+        id: 12,
+        name: 'Mutton Pulao : マトンプラオ',
+        description: 'Tender mutton cooked together with fragrant basmati rice',
+        price: '¥1,000'
+    },
+    {
+        id: 13,
+        name: 'Tandoori Chicken : タンドリーチキン',
+        description: 'Chicken marinated in spices and roasted in a tandoor oven',
+        price: '2pcs ￥650 | 4pcs ￥1,050'
+    },
+    {
+        id: 14,
+        name: 'Malai Tikka : マライティッカ',
+        description: 'Chicken marinated in creamy yogurt and spices, grilled to perfection',
+        price: '6pcs ￥1,050'
+    },
+    {
+        id: 15,
+        name: 'Chapli Kebabu : チャプリケバブ',
+        description: 'Spiced minced meat patties grilled to perfection, a traditional kebab',
+        price: '2pcs ￥600'
+    },
+    {
+        id: 16,
+        name: 'Mutton Biryani : マトンビリヤニ',
+        description: 'Fragrant basmati rice cooked with tender mutton and aromatic spices',
+        price: '￥1,000'
+    },
+    {
+        id: 17,
+        name: 'Mutton Paya : マトンパヤ',
+        description: 'A rich and nourishing curry soup made by slow-cooking mutton trotters',
+        price: '￥1,000'
+    },
+    {
+        id: 18,
+        name: 'Shish Kebabu : シシケバブ',
+        description: 'Skewered meat and vegetables marinated in spices and grilled to perfection',
+        price: '2pcs ￥800'
+    },
+    {
+        id: 19,
+        name: 'Chicken Tikka : チキンティッカ',
+        description: 'Chicken marinated in spiced yogurt and roasted in a tandoor oven',
+        price: '6pcs ￥900'
     }
 
 ];

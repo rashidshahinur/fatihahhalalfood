@@ -28,6 +28,7 @@ function Menu() {
         </motion.div>
       </header>
 
+      {/* Side Menu */}
       <div className='breakfast my-5'>
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Side Menu</h2>
@@ -38,7 +39,12 @@ function Menu() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
-              <img src={BreakfastImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+              <img 
+                src={BreakfastImg} 
+                className='img-fluid w-75 mt-4 mt-lg-0' 
+                alt="Side menu" 
+                style={{ objectFit: 'cover', maxHeight: '80vh' }}
+              />
             </motion.div>
             <motion.div 
               className='col-lg-6 d-flex flex-column justify-content-around'
@@ -68,6 +74,7 @@ function Menu() {
         </div>
       </div>
 
+      {/* Lunch */}
       <div className='lunch bg-dark text-light py-5'>
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Lunch</h2>
@@ -102,12 +109,18 @@ function Menu() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
-              <img src={LunchImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+              <img 
+                src={LunchImg} 
+                className='img-fluid w-75 mt-4 mt-lg-0' 
+                alt="Lunch menu" 
+                style={{ objectFit: 'cover', maxHeight: '80vh' }}
+              />
             </motion.div>
           </div>
         </div>
       </div>
 
+      {/* Dinner */}
       <div className='dinner my-5'>
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dinner</h2>
@@ -118,7 +131,12 @@ function Menu() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
-              <img src={DinnerImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+              <img 
+                src={DinnerImg} 
+                className='img-fluid w-75 mt-4 mt-lg-0' 
+                alt="Dinner menu" 
+                style={{ objectFit: 'cover', maxHeight: '80vh' }}
+              />
             </motion.div>
             <motion.div 
               className='col-lg-6 d-flex flex-column justify-content-around'
@@ -148,6 +166,7 @@ function Menu() {
         </div>
       </div>
 
+      {/* Single Menu */}
       <div className='dessert bg-dark text-light py-5'>
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Single Menu</h2>
@@ -182,12 +201,18 @@ function Menu() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
-              <img src={DessertImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+              <img 
+                src={DessertImg} 
+                className='img-fluid w-75 mt-4 mt-lg-0' 
+                alt="Single menu" 
+                style={{ objectFit: 'cover', maxHeight: '80vh' }}
+              />
             </motion.div>
           </div>
         </div>
       </div>
 
+      {/* Drinks */}
       <div className='drinks my-5'>
         <div className='container'>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Drinks</h2>
@@ -198,7 +223,12 @@ function Menu() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
-              <img src={DrinksImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+              <img 
+                src={DrinksImg} 
+                className='img-fluid w-75 mt-4 mt-lg-0' 
+                alt="Drinks menu" 
+                style={{ objectFit: 'cover', maxHeight: '80vh' }}
+              />
             </motion.div>
             <motion.div 
               className='col-lg-6 d-flex flex-column justify-content-around'
@@ -225,6 +255,7 @@ function Menu() {
         </div>
       </div>
 
+      {/* Book Table Button */}
       <motion.div 
         className="container my-5 pt-5 d-flex justify-content-center"
         initial={{ opacity: 0, y: 50 }}
@@ -232,7 +263,9 @@ function Menu() {
         transition={{ duration: 1 }}
       >
         <Link to='/contact'>
-          <button type='button' className='btn btn-success btn-lg rounded-0 text-capitalize mx-2 shadow'>Book your table</button>
+          <button type='button' className='btn btn-success btn-lg rounded-0 text-capitalize mx-2 shadow'>
+            Book your table
+          </button>
         </Link>
       </motion.div>
     </div>

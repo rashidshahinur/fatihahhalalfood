@@ -58,7 +58,7 @@ function ContactSection() {
 
               {/* LINE (placeholder link; update when you have the official ID) */}
               <a
-                href="https://line.me/R/ti/p/@yourlineid"   // TODO: replace @yourlineid when ready
+                href="https://line.me/ti/p/~+818035125977"   // TODO: replace @yourlineid when ready
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-light rounded-0"

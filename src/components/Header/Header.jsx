@@ -32,7 +32,8 @@ function Header() {
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
                             <h1 className='text-capitalize fw-bold text-center text-md-start'>Fatihah Halal Food</h1>
-                            <p className='mb-4 text-center text-md-start'>At Fatihah Halal Food, we believe every meal should be more than food — it should be an experience. Located in Ibaraki, Japan, we serve authentic halal dishes that turn ordinary gatherings into unforgettable memories.</p>
+                            <p className='mb-4 text-center text-md-start'>At Fatihah Halal Food, we believe every meal should be more than food — it should be an experience. Located in Ibaraki, Japan, we serve authentic halal dishes that turn ordinary gatherings into unforgettable memories. ファティハ・ハラール・フードでは、食事は単なる食べ物ではなく、体験であるべきだと考えています。
+私たちは日本の茨城にて、本格的なハラール料理を提供し、日常の集まりを忘れられない思い出へと変えていきます。</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>

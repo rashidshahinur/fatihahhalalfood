@@ -9,3 +9,39 @@
   align-items: center;
   justify-content: center;
 }
+
+/* ===== Menu page global background (light, warm) ===== */
+.menu-page {
+  background-color: #fffdf5; /* try #fffaf0 or #f8f9fa if you prefer */
+}
+
+/* Make sure containers don't reintroduce dark backgrounds */
+.menu-page .container,
+.menu-page .row,
+.menu-page .col,
+.menu-page .col-lg-6 {
+  background-color: transparent !important;
+}
+
+/* Override any Bootstrap bg-dark used in sections (e.g., Lunch, Single Menu) */
+.menu-page .bg-dark {
+  background-color: #fffdf5 !important;   /* light background instead of black */
+}
+
+/* If any text is forced light, make it dark again for readability */
+.menu-page .text-light {
+  color: #212529 !important;
+}
+
+/* Keep cards transparent so page background shows through */
+.menu-page .card {
+  background-color: transparent !important;
+  border: 0;
+  color: inherit;
+}
+
+/* Optional: unify headings on the light background */
+.menu-page h2,
+.menu-page h3 {
+  text-shadow: none;
+}

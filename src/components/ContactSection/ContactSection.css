@@ -1,5 +1,15 @@
+/* Contact section background WITHOUT any dark overlay */
 .contact-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../utils/images/contact-section-background-img.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(../../utils/images/contact-section-background-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Optional: slight text shadow so white text stays readable on light areas */
+.contact-section h2,
+.contact-section p,
+.contact-section a,
+.contact-section .btn {
+  text-shadow: 0 1px 2px rgba(0,0,0,.25);
 }

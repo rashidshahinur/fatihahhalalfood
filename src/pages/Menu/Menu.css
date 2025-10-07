@@ -12,7 +12,7 @@
 
 /* ===== Menu page global background (light, warm) ===== */
 .menu-page {
-  background-color: #fffdf5; /* try #fffaf0 or #f8f9fa if you prefer */
+  background-color: #fff7e6; /* try #fff7e6 or #f8f9fa if you prefer */
 }
 
 /* Make sure containers don't reintroduce dark backgrounds */
@@ -25,7 +25,7 @@
 
 /* Override any Bootstrap bg-dark used in sections (e.g., Lunch, Single Menu) */
 .menu-page .bg-dark {
-  background-color: #fffdf5 !important;   /* light background instead of black */
+  background-color: #fff7e6 !important;   /* light background instead of black */
 }
 
 /* If any text is forced light, make it dark again for readability */

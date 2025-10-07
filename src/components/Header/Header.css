@@ -1,38 +1,44 @@
 .carousel-item1,
 .carousel-item2,
 .carousel-item3 {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* Remove yellow overlay completely — keep only image */
 .carousel-item1 {
-    background-image: linear-gradient(to right, rgba(250, 213, 4, 0.6), rgba(250, 213, 4, 0.6)), url(../../utils/images/gallery10.jpg);
+  background-image: url(../../utils/images/gallery10.jpg);
 }
 
 .carousel-item2 {
-    background-image: linear-gradient(to right, rgba(250, 213, 4, 0.6), rgba(250, 213, 4, 0.6)), url(../../utils/images/gallery12.jpg);
+  background-image: url(../../utils/images/gallery12.jpg);
 }
 
 .carousel-item3 {
-    background-image: linear-gradient(to right, rgba(250, 213, 4, 0.6), rgba(250, 213, 4, 0.6)), url(../../utils/images/gallery13.jpg);
+  background-image: url(../../utils/images/gallery13.jpg);
 }
 
+/* Optional: hide arrows or indicators */
 .carousel .carousel-control-prev,
 .carousel .carousel-control-next,
 .carousel .carousel-indicators {
-    display: none;
+  display: none;
 }
 
+/* Mobile view (no overlay here either) */
 @media only screen and (max-width: 768px) {
-    .carousel-item1 {
-        background-image: linear-gradient(to right, rgba(255, 217, 0, 0.906), rgba(255, 217, 0, 0.906)), url(../../utils/images/gallery10.jpg);
-    }
-    
-    .carousel-item2 {
-        background-image: linear-gradient(to right, rgba(255, 217, 0, 0.906), rgba(255, 217, 0, 0.906)), url(../../utils/images/gallery12.jpg);
-    }
-    
-    .carousel-item3 {
-        background-image: linear-gradient(to right, rgba(255, 217, 0, 0.906), rgba(255, 217, 0, 0.906)), url(../../utils/images/gallery13.jpg);
-    }
+  .carousel-item1 {
+    background-image: url(../../utils/images/gallery10.jpg);
+  }
+
+  .carousel-item2 {
+    background-image: url(../../utils/images/gallery12.jpg);
+  }
+
+  .carousel-item3 {
+    background-image: url(../../utils/images/gallery13.jpg);
+  }
 }
+
+
